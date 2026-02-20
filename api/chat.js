@@ -1,8 +1,7 @@
 export default async function handler(req, res) {
   const { message, type } = req.body;
 
-  const API_TOKEN = process.env.HF_TOKEN;
-
+  const API_TOKEN = "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";
   let model = "";
   let body = {};
 
