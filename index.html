@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elite Contas Gamer</title>
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:#0f172a;
+color:white;
+}
+header{
+background:#111827;
+padding:20px;
+text-align:center;
+font-size:24px;
+font-weight:bold;
+}
+.container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:20px;
+}
+.card{
+background:#1e293b;
+padding:15px;
+border-radius:12px;
+transition:0.3s;
+}
+.card:hover{
+transform:scale(1.03);
+}
+.card img{
+width:100%;
+border-radius:10px;
+}
+.price{
+color:#22c55e;
+font-size:20px;
+margin-top:10px;
+}
+button{
+background:#22c55e;
+border:none;
+padding:10px;
+width:100%;
+margin-top:10px;
+border-radius:6px;
+cursor:pointer;
+font-weight:bold;
+}
+button:hover{
+background:#16a34a;
+}
+footer{
+text-align:center;
+padding:20px;
+background:#111827;
+margin-top:20px;
+}
+</style>
+</head>
+<body>
+
+<header>🔥 Elite Contas Gamer 🔥</header>
+
+<div class="container">
+
+<div class="card">
+<img src="https://via.placeholder.com/400x250">
+<h3>Conta Full Skins</h3>
+<p>Conta com skins raras e nível alto.</p>
+<div class="price">R$ 350,00</div>
+<button onclick="comprar()">Comprar via WhatsApp</button>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/400x250">
+<h3>Conta Diamante</h3>
+<p>Rank alto + itens exclusivos.</p>
+<div class="price">R$ 220,00</div>
+<button onclick="comprar()">Comprar via WhatsApp</button>
+</div>
+
+</div>
+
+<footer>
+© 2026 Elite Contas Gamer - Todos os direitos reservados
+</footer>
+
+<script>
+function comprar(){
+window.open("https://wa.me/5588992424815","_blank");
+}
+</script>
+
+</body>
+</html>
